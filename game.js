@@ -57,6 +57,7 @@ function randomise() {
     localStorage.setItem("score", score);
     randomise()
     startTimer()
+    clearInterval(interval)
   }
 // Iteration 6: Making the Operators (button) functional
 
